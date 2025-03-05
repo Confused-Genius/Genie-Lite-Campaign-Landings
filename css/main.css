@@ -48,6 +48,7 @@
 .ng-faq-panel-question {
     top: 5%;
     color: rgb(55 38 50) !important;
+    font-size: 18px !important;
 }
 
 .ng-faq-panel-card {
@@ -99,13 +100,19 @@
     position: absolute;
 }
 
+.ng-youtube-video-iframe {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+}
+
 @media screen and (max-width: 768px) {
     .ng-faq-panel-card {
         min-width: auto;
     }
 
     .ng-faq-panel-card .card-head {
-        min-width: auto;
+        min-width: 75%;
         max-width: 450px;
     }
 
@@ -134,5 +141,14 @@
 
     .ng-save-my-spot p {
         font-size: 15px !important;
+    }
+
+    .ng-faq-panel-question {
+        font-size: 15px !important;
+    }
+
+    .ng-youtube-video-iframe {
+        width: 100%;
+        height: auto;
     }
 }
