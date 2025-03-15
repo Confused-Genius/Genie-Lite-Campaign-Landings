@@ -106,6 +106,10 @@
     min-height: 500px;
 }
 
+.ng-faq-panel-holder {
+    position: absolute;
+}
+
 @media screen and (max-width: 768px) {
     .ng-faq-panel-card {
         min-width: auto;
@@ -150,5 +154,9 @@
     .ng-youtube-video-iframe {
         width: 100%;
         height: auto;
+    }
+
+    .ng-faq-panel-holder {
+        position: unset;
     }
 }
